@@ -7,10 +7,10 @@
  *         0 if the number is zero,
  *         -1 if the number is less than zero.
  */
-int print_sign(int n)
-{
-	if (n > 0)
-	{
+int print_sign(int n)	
+{	
+	if (n > 0 )
+	{	
 		_putchar('+');
 		return (1);
 	}
@@ -20,7 +20,8 @@ int print_sign(int n)
 		return (0);
 	}
 	else
+	{
 		_putchar('-');
-	        return (-1);
+		return(-1);
 	}
 }
